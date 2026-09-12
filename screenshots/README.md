@@ -1,94 +1,81 @@
-# Screenshot Checklist
+# SYSTEM — Screenshot Gallery
 
-These screenshots are intended for the public portfolio README. Use real application states rather than staged mockups whenever possible.
+These captures document the current live prototype using real application states.
 
-## 01 — Today / Routine Progress
+## 01 — Today Overview
 
-**Filename:** `01-today-routine-progress.png`
+**File:** `01-today-overview.jpg`
 
-Capture the **Today** view with a realistic mix of pending, completed, and missed blocks.
+Shows the overall mission-control view with:
 
-Include if possible:
+- Current level and total XP
+- XP progress toward the next level
+- Daily focus status
+- Daily completion percentage
+- Routine controls
 
-- Level / XP panel
-- Focus status summary
-- Daily completion count and percentage
-- Daily progress bar
-- Several routine block cards
-- Focus, Done, and Missed controls
+![Today overview](01-today-overview.jpg)
 
-**Why it matters:** This is the best single screenshot for explaining SYSTEM’s core loop.
+## 02 — Daily Routine Blocks
 
-## 02 — Active Focus Session
+**File:** `02-daily-routine-blocks.jpg`
 
-**Filename:** `02-focus-active-session.png`
+Shows the lower portion of the daily schedule and the repeated execution pattern for each block:
 
-Capture **Focus** while a session is actively running and linked to a routine block.
+- Time range
+- Block title
+- Done state
+- XP earned
+- Focus / Done / Missed controls
 
-Include:
+![Daily routine blocks](02-daily-routine-blocks.jpg)
 
-- Circular countdown
-- Current phase
-- Current task
-- Session number
-- Pause / Restart / Skip / Exit controls
-- Session setup visible if the layout allows it cleanly
+## 03 — Focus Mode
 
-**Why it matters:** It shows that Pomodoro is integrated into planned work instead of existing as a separate timer.
+**File:** `03-focus-mode.jpg`
 
-## 03 — Focus Analytics + History
+Shows the primary Focus workspace with:
 
-**Filename:** `03-focus-analytics-history.png`
+- Session context
+- Circular countdown timer
+- Current level context
+- Focus-mode navigation
+- Fullscreen entry point
 
-Capture the **Focus** view after at least one completed session.
+![Focus mode](03-focus-mode.jpg)
 
-Include:
+## 04 — Focus Analytics
 
-- Focused minutes
+**File:** `04-focus-analytics.jpg`
+
+Shows the review layer connected to focused work:
+
+- Session setup
+- Alert controls
 - Pomodoros completed
-- Daily goal progress
-- Streak / planned-study feedback if visible
-- By-task breakdown
-- By-domain breakdown
+- Focused minutes
+- Current streak
+- Planned-study percentage
+- Daily focus goal
+- Breakdown by task and domain
 - Session history
 
-**Why it matters:** It demonstrates persistence and review rather than only countdown functionality.
+![Focus analytics](04-focus-analytics.jpg)
 
-## 04 — Fullscreen Focus
+## 05 — Fullscreen Focus
 
-**Filename:** `04-focus-fullscreen.png`
+**File:** `05-focus-fullscreen.jpg`
 
-Capture **Fullscreen Focus Mode** during an active session.
-
-Include:
+Shows the distraction-reduced execution mode with:
 
 - Large countdown ring
 - Current task
-- Session number / domain if visible
+- Session context
 - Essential timer controls
 - Exit focus mode action
 
-**Why it matters:** This is likely the strongest visual asset in the portfolio because it communicates the distraction-reduced execution mode immediately.
+![Fullscreen focus](05-focus-fullscreen.jpg)
 
-## 05 — Progress Overview
+## Capture principles
 
-**Filename:** `05-progress-overview.png`
-
-Capture the **Progress** tab with real saved activity.
-
-Include:
-
-- Weekly completion
-- Focus streak
-- Total XP
-- Current level
-
-**Why it matters:** It documents the current review layer without implying analytics that do not yet exist.
-
-## Capture notes
-
-- Use the same viewport width for screenshots where possible.
-- Avoid exposing private or sensitive information.
-- Prefer real progress data over fabricated perfect metrics.
-- Keep browser chrome minimal if the capture still clearly shows the application.
-- Do not edit screenshots to imply features that are not present in the live prototype.
+These screenshots intentionally use real prototype data rather than staged mockups. They are meant to show the product as it currently exists, including its active-development state.
