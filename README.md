@@ -5,6 +5,10 @@
 > **Status:** Active personal prototype  
 > **Built with:** ChatGPT Sites · React · TypeScript · Cloudflare D1 / SQLite · Drizzle ORM
 
+[**Open the live prototype →**](https://solo-system-daily.leodez.chatgpt.site)
+
+![SYSTEM daily mission control](screenshots/01-today-overview.jpg)
+
 SYSTEM began with a very ordinary problem: I had a structured day on paper, but I was still losing track of what I should be doing, how long I had actually focused, and whether I had made meaningful progress by the end of the day.
 
 Pomodoro timers helped with concentration, but they lived separately from the routine. Task tools helped with lists, but not with execution. I wanted one simple loop that connected the plan to the work itself:
@@ -12,14 +16,6 @@ Pomodoro timers helped with concentration, but they lived separately from the ro
 **PLAN → FOCUS → COMPLETE → REVIEW**
 
 SYSTEM is the tool I built around that workflow.
-
-## Live prototype
-
-The current prototype is built and hosted in **ChatGPT Sites**.
-
-**Live URL:** _to be added once the public deployment URL is confirmed_
-
-> This repository currently documents the product, design decisions, and development process. It does **not** claim to contain the full source code of the ChatGPT Sites prototype.
 
 ## Why I built it
 
@@ -49,11 +45,13 @@ The goal is not to become a general-purpose task manager. The goal is to reduce 
 
 ### Today
 
-The daily execution view. It shows the eight scheduled blocks, daily completion, XP earned, focus progress, and direct controls for **Focus**, **Done**, and **Missed**.
+The daily execution view shows the scheduled blocks, daily completion, XP earned, focus progress, and direct controls for **Focus**, **Done**, and **Missed**.
+
+![Routine blocks](screenshots/02-daily-routine-blocks.jpg)
 
 ### Focus
 
-The working mode. It includes:
+The working mode includes:
 
 - Focus, short-break, and long-break phases
 - 25/5 and 50/10 presets
@@ -68,14 +66,19 @@ The working mode. It includes:
 - Task and domain breakdowns
 - Session history
 
-### Progress
+![Focus mode](screenshots/03-focus-mode.jpg)
 
-A lightweight consistency view showing:
+### Review
 
-- Weekly completion
-- Focus streak
-- Total XP
-- Current level
+Focus sessions feed back into the same system through focused minutes, Pomodoros completed, streaks, task/domain breakdowns, XP, levels, and session history.
+
+![Focus analytics and history](screenshots/04-focus-analytics.jpg)
+
+### Distraction-free mode
+
+For active work, SYSTEM can reduce the interface to the timer, current task, session context, and essential controls.
+
+![Fullscreen focus mode](screenshots/05-focus-fullscreen.jpg)
 
 ## Focus is part of the routine
 
@@ -86,8 +89,6 @@ A focus session can be linked directly to a routine block. When the session is c
 That connection is the central product idea behind SYSTEM.
 
 ## Product decisions
-
-A few decisions shape the current prototype:
 
 | Decision | Why it exists |
 | --- | --- |
@@ -121,20 +122,6 @@ Confirmed implementation elements include:
 - Drizzle ORM schema and migrations
 
 The product remains a **single-user personal prototype**, not a finished multi-user platform.
-
-## Screenshots
-
-The repository is prepared for the following portfolio captures:
-
-| Screenshot | What it should show |
-| --- | --- |
-| `01-today-routine-progress.png` | Daily routine with a realistic mix of pending, completed, and missed blocks. |
-| `02-focus-active-session.png` | Running focus session linked to a routine block. |
-| `03-focus-analytics-history.png` | Daily analytics, task/domain breakdown, and session history. |
-| `04-focus-fullscreen.png` | Fullscreen focus mode with an active timer. |
-| `05-progress-overview.png` | Weekly completion, streak, XP, and level. |
-
-See [`screenshots/README.md`](screenshots/README.md) for the capture checklist.
 
 ## What I learned
 
@@ -181,9 +168,11 @@ It reflects the kind of work I enjoy as a Creative Technologist: understanding a
 
 ---
 
-### Documentation
+### Live & documentation
 
+- [**Live prototype**](https://solo-system-daily.leodez.chatgpt.site)
 - [`Product overview`](docs/product-overview.md)
 - [`Design decisions`](docs/design-decisions.md)
 - [`Roadmap`](docs/roadmap.md)
-- [`Screenshot checklist`](screenshots/README.md)
+
+> The current live prototype is built in ChatGPT Sites. This repository documents the product, design decisions, and development process; it does not claim to contain the full source code of the Site.
